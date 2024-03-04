@@ -1,9 +1,9 @@
 :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: 'Source Sans 3', sans-serif;
   line-height: 1.5;
   font-weight: 400;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #242424; /* Заменяем #242424 на #000000 (чёрный цвет) */
+  background-color: #181818;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -20,29 +20,5 @@ a:hover {
 }
 
 body {
-  margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
-}
 
-h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
-}
-
-
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
-  a:hover {
-    color: #747bff;
-  }
-  button {
-    background-color: #f9f9f9;
-  }
 }
