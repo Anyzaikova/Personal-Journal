@@ -1,10 +1,10 @@
 import './Button.css';
 
-function Button (props) {
+function Button ({text, onClick}) {
 
     return (
         <button
-            className='button accent'> {props.name} </button>
+            className='button accent' onClick={onClick}> {text} </button>
     )
 }
 
