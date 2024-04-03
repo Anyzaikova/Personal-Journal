@@ -1,22 +1,13 @@
 * {
     color: rgba(255, 255, 255, 0.87);
 }
+
 .journal-form {
     display: flex;
     flex-direction: column;
     gap: 30px;
 }
 
-
-.input-title {
-    border: none;
-    background: none;
-    font-weight: 600;
-    font-size: 32px;
-    font-family: 'Source Sans 3', sans-serif;
-    border-bottom: 1px solid #272727;
-
-}
 
 .form-label {
     display: flex;
@@ -30,6 +21,7 @@
     align-items: center;
     gap: 50px;
 }
+
 .input {
     border: none;
     background: none;
@@ -39,7 +31,24 @@
     border-bottom: 1px solid #272727;
     width: 100%;
 }
+
 .invalid {
     border: 1px solid red;
-    background-color: rgba(247, 163, 153, 0.83);
+    background-color: rgb(68, 6, 6);
+}
+
+.delete {
+    border: 1px solid #fff;
+    border-radius: 100px;
+    width: 30px;
+    height: 30px;
+    background: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.delete:hover {
+    background: rgb(255,255,255, 0.1);
 }
