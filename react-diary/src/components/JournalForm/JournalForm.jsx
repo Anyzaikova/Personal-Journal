@@ -72,7 +72,7 @@ function JournalForm({onSubmit, data, onDelete}) {
         dispatchForm({type: 'SUBMIT'});
     };
     const deleteJournalItem = (id) => {
-        onDelete(data.id);
+        onDelete(data && data.id);
         dispatchForm({type: 'CLEAR'});
         dispatchForm({type: 'SET_VALUE', payload: {userId: userId}});
     }
